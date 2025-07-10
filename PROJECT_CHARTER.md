@@ -137,32 +137,15 @@ Each summary tab represents a unique summarization strategy. Users can switch be
 
 ## ⏳ Timeline & Phase Breakdown
 
-| Week | Timeline | Milestone                                                                               |
-|------|----------|-----------------------------------------------------------------------------------------|
-| W1   | July 14  | Finish all pre-dev documentation:													    |
-|      |          |`PROJECT_CHARTER.md`, `SRS.md`, `FEASIBILITY.md`, `ARCHITECTURE.md`, `API_DESIGN.md`,    |
-|      |          | `UI_FLOW.md`, `README.md`, `BUSINESS_OVERVIEW.md`,`COMPETITIVE_LANDSCAPE.md`            |
-| W2   | July 21  | Set up basic front-end + backend:														|
-|      |          |- Textbox input (Paste Mode)																|
-|      |          |- Basic backend API																		|
-|      |          |- Integration with Gemini LLM															|
-|      |          |- Show editable inline summary															|
-| W3   | July 28  | Implement file-folder structure (UI + backend):											|
-|      |          |- Basic folder view																		|
-|      |          |- Setup DB and file schema															 	|
-|      |          |- Store metadata in DB 																	|
-| W4   | Aug 04   | Implement login screen + backend auth logic												|
-|      |          |- Secure password storage																|
-|      |          |- Authenticated routes																	|
-| W5   | Aug 11   | Implement file upload (frontend):														|
-|      |          |- PDF/Word support																		|
-|      |          |- Drag-and-drop																			|
-|      |          |- File selector																			|
-| W6   | Aug 18   | Implement backend file handling:														|
-|      |          |- File parsing + extraction using third-party libs										|
-|      |          |- Store only extracted content															|
-|      |          |- Add gzip compression + preview thumbnails 												|
-| W7+  | Aug 20+  | Expand to multiple formats, refine UI by summary type, prepare demo, deploy MVP 		|
+| Week | Timeline | Milestone |
+|------|----------|-----------|
+| W1   | July 14 | Finish all pre-dev documentation:<br>`PROJECT_CHARTER.md`, `SRS.md`, `FEASIBILITY.md`, `ARCHITECTURE.md`, `API_DESIGN.md`, `UI_FLOW.md`, `README.md`, `BUSINESS_OVERVIEW.md`, `COMPETITIVE_LANDSCAPE.md`  |
+| W2 | July 21 | Set up basic front-end + backend:<br>- Textbox input (Paste Mode)<br>- Basic backend API<br>- Integration with Gemini LLM<br>- Show editable inline summary |
+| W3 | July 28 | Implement file-folder structure (UI + backend):<br>- Basic folder view<br>- Setup DB and file schema<br>- Store metadata in DB |
+| W4 | Aug 04 | Implement login screen + backend auth logic<br>- Secure password storage<br>- Authenticated routes |
+| W5 | Aug 11 | Implement file upload (frontend):<br>- PDF/Word support<br>- Drag-and-drop<br>- File selector |
+| W6 | Aug 18 | Implement backend file handling:<br>- File parsing + extraction using third-party libs<br>- Store only extracted content<br>- Add gzip compression + preview thumbnails |
+| W7+ | Aug 20+ | Expand to multiple formats, refine UI by summary type, prepare demo, deploy MVP |
 
 ---
 
