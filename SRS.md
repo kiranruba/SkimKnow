@@ -52,7 +52,7 @@ To provide a single unified workspace for summarizing multiple source formats (e
 | Category                  | Planned Features                                                                                     |
 |---------------------------|------------------------------------------------------------------------------------------------------|
 | **Input Formats**         | Image OCR (scanned image PDFs, diagrams), Notion, Zoom, Podcasts, Google Docs                        |
-| **Output Styles**         | Presentation, Tabular, Flashcards, Dashboards, Statistical, Research, Story Mode, Big Picture<br>Download Formats: Excel (.xlsx), Markdown (.md), PNG/JPEG, Google Docs                               |
+| **Output Styles**         | Presentation, Tabular, Flashcards, Dashboards, Statistical, Research, Story Mode, Big Picture<br>*Download Formats*: Excel (.xlsx), Markdown (.md), PNG/JPEG, Google Docs                               |
 | **AI/LLM Expansion**      | Hybrid LLM routing per summary type, fallback models, auto-prompt selection                          |
 | **UI Enhancements**       | Undo/Redo, Theming, Usage Tracking, Auto-save, Drag & Drop, Smart Tabs                               |
 | **System-Level Enhancements** | Chrome Extension (fetch tabs), Offline mode, Mobile PWA, Backup/Recovery, Load Balancing         |
@@ -456,8 +456,6 @@ sequenceDiagram
 ### 9.3 State Machine Diagram (Input Flow)
 
 ```mermaid
-stateDiagram-v2
-
 stateDiagram-v2
     [*] --> Idle
 
